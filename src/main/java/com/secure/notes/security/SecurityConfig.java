@@ -2,7 +2,6 @@ package com.secure.notes.security;
 
 import com.secure.notes.models.AppRole;
 import com.secure.notes.models.Role;
-import com.secure.notes.models.User;
 import com.secure.notes.repositories.RoleRepository;
 import com.secure.notes.repositories.UserRepository;
 import com.secure.notes.security.jwt.AuthEntryPointJwt;
@@ -20,8 +19,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
-
-import java.time.LocalDate;
 
 import static org.springframework.security.config.Customizer.withDefaults;
 
